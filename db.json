@@ -1,0 +1,790 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "title": "Die for you",
+      "img": "https://i.ytimg.com/vi/mTLQhPFx2nM/maxresdefault.jpg",
+      "video": "https://www.youtube.com/embed/watch?v=RpyN9pFXUCg",
+      "author": "The weeknd",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "43 699 640",
+      "album": "Starboy",
+      "comments": [
+        {
+          "avatar": "",
+          "id": 1,
+          "username": "Саня крут",
+          "message": "Hello from Javascript Utils",
+          "commentId": 0
+        }
+      ],
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "title": "Dynamite",
+      "img": "http://sun9-39.userapi.com/impg/r0yB6ossf4Zor1EkgZwgnykHU672Cg08Rb-3Ww/p1dEa0SJ_7w.jpg?size=848x1080&quality=96&sign=7ca73d6fdeaccd47b08dfec524d940e7&type=album",
+      "video": "https://www.youtube.com/watch?v=gdZLi9oWNZg",
+      "author": "BTS",
+      "dataRelease": "2020",
+      "genre": "Kpop",
+      "totalViews": "1 630 887 969",
+      "album": "Be",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "title": "Life goes on",
+      "img": "https://www.soyuz.ru/public/uploads/files/2/7451234/20201120131949c61779b32e.jpg",
+      "video": "https://www.youtube.com/watch?v=RvcP6V4h_q4",
+      "author": "BTS",
+      "dataRelease": "2020",
+      "genre": "Kpop",
+      "totalViews": "122 019 056",
+      "album": "Be",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "title": "I feel it coming",
+      "img": "https://akamai.sscdn.co/letras/500x500/albuns_high/30297_20161020080139.jpg",
+      "video": "https://www.youtube.com/watch?v=qFLhGq0060w",
+      "author": "The weeknd",
+      "dataRelease": "2019",
+      "genre": "Pop",
+      "totalViews": "667 317 365",
+      "album": "Starboy",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "title": "Blue Jeans",
+      "img": "https://live.staticflickr.com/1774/43040176405_fb1a6c3d0a_b.jpg",
+      "video": "https://www.youtube.com/watch?v=JRWox-i6aAk",
+      "author": "Lana Del Rey",
+      "dataRelease": "2012",
+      "genre": "Indi",
+      "totalViews": "343 351 249",
+      "album": "Born to die",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "title": "Video Games",
+      "img": "https://i1.sndcdn.com/artworks-000096921762-ki6lf2-t500x500.jpg",
+      "video": "https://www.youtube.com/watch?v=cE6wxDqdOV0",
+      "author": "Lana Del Rey",
+      "dataRelease": "2012",
+      "genre": "Indi",
+      "totalViews": "311 640 340",
+      "album": "Born to die",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 7,
+      "title": "Summertime Sadness",
+      "img": "https://i.scdn.co/image/ab67616d0000b273f894be72a77b1488292672c7",
+      "video": "https://www.youtube.com/watch?v=TdrL3QxjyVw",
+      "author": "Lana Del Rey",
+      "dataRelease": "2012",
+      "genre": "Indi",
+      "totalViews": "407 505 727",
+      "album": "Born to die",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "title": "Stay",
+      "img": "https://i.ytimg.com/vi/8uxI-0ge4-Y/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=evBAiaYal1o",
+      "author": "BTS",
+      "dataRelease": "2020",
+      "genre": "Kpop",
+      "totalViews": "29 237 262",
+      "album": "Be",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 9,
+      "title": "Party Monster",
+      "img": "https://www.vibe.com/wp-content/uploads/2016/11/the-weeknd-party-monster-cover-1479483625.jpg?w=910&h=511&crop=1",
+      "video": "https://www.youtube.com/watch?v=diW6jXhLE0E",
+      "author": "The weeknd",
+      "dataRelease": "2016",
+      "genre": "Pop",
+      "totalViews": "142 014 406",
+      "album": "Starboy",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 10,
+      "title": "Superman",
+      "img": "https://www.eminem.pro/wp-content/uploads/2021/02/superman.jpg",
+      "video": "https://www.youtube.com/watch?v=8kYkciD9VjU",
+      "author": "Eminem",
+      "dataRelease": "2009",
+      "genre": "Hip Hop",
+      "totalViews": "138 620 291",
+      "album": "The eminem show",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 11,
+      "title": "In my feelings",
+      "img": "https://cdn.vox-cdn.com/thumbor/d3JGf-tdxt74JmI_cRF8E2XctGM=/0x0:3000x2000/1200x800/filters:focal(1196x233:1676x713)/cdn.vox-cdn.com/uploads/chorus_image/image/60720927/drake_feelings_micah.0.jpg",
+      "video": "https://www.youtube.com/watch?v=SD1tkI5-3dI",
+      "author": "Drake",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "8 950 418",
+      "album": "Scorpion",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 12,
+      "title": "We will rock you",
+      "img": "https://rock-history.ru/upload/000/u1/009/34a8f977.jpg",
+      "video": "https://www.youtube.com/watch?v=y3Ca3c6J9N4",
+      "author": "Queen",
+      "dataRelease": "1977",
+      "genre": "Rock",
+      "totalViews": "7 479 362",
+      "album": "News of the World",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 13,
+      "title": "West Coast",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/c/c1/Lana_Del_Rey_-_West_Coast.png",
+      "video": "https://www.youtube.com/watch?v=oKxuiw3iMBE",
+      "author": "Lana Del Rey",
+      "dataRelease": "2014",
+      "genre": "Pop",
+      "totalViews": "159 362 219",
+      "album": "Ultraviolence",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 14,
+      "title": "The other Women",
+      "img": "https://i.pinimg.com/originals/ee/89/30/ee8930a6fa47ae140108c1173e84b10b.jpg",
+      "video": "https://www.youtube.com/watch?v=rh8CjR_g3Kk",
+      "author": "Lana Del Rey",
+      "dataRelease": "2014",
+      "genre": "Indi",
+      "totalViews": "505 351",
+      "album": "Ultraviolence",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 15,
+      "title": "We are the chapmions",
+      "img": "https://m.media-amazon.com/images/M/MV5BNWM2NGQ4YTAtNDljNi00YjFlLWI1M2ItMzQyZTY2Mzg1ZGRhXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg",
+      "video": "https://www.youtube.com/watch?v=04854XqcfCY",
+      "author": "Queen",
+      "dataRelease": "2008",
+      "genre": "Rock",
+      "totalViews": "256 373 228",
+      "album": "News of the World",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 17,
+      "title": "Non stop",
+      "img": "https://i.scdn.co/image/ab67616d0000b27322835a786fae4e73b38503cc",
+      "video": "https://www.youtube.com/watch?v=lJTRVX9R5EA",
+      "author": "Drake",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "108 255 009",
+      "album": "Scorpion",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 18,
+      "title": "Without me",
+      "img": "https://pics.filmaffinity.com/Eminem_Without_Me_Music_Video-152736505-large.jpg",
+      "video": "https://www.youtube.com/watch?v=YVkUvmDQ3HY",
+      "author": "Eminem",
+      "dataRelease": "2009",
+      "genre": "Hip Hop",
+      "totalViews": "1 578 586 685",
+      "album": "The eminem show",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 19,
+      "title": "Sleeping on the sidewalk",
+      "img": "https://i.ytimg.com/vi/ZZyhS5beQc8/hqdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=ZZyhS5beQc8",
+      "author": "Queen",
+      "dataRelease": "2014",
+      "genre": "Rock",
+      "totalViews": "640 202",
+      "album": "News of the World",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 20,
+      "title": "Sing for the moment",
+      "img": "https://i.scdn.co/image/ab67616d0000b27357025409d9e13a4c7ce8f2d3",
+      "video": "https://www.youtube.com/watch?v=MJNGXnvHYPg",
+      "author": "Eminem",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "52 414 492",
+      "album": "The eminem show",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 21,
+      "title": "Good company",
+      "img": "https://i.ytimg.com/vi/XQo5tqwAwgE/hqdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=XQo5tqwAwgE",
+      "author": "Queen",
+      "dataRelease": "2014",
+      "genre": "Rock",
+      "totalViews": "1 021 555",
+      "album": " A Night at the Opera",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 22,
+      "title": "My boy",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/e/e0/Billie_Ellish_-_My_Boy.jpeg",
+      "video": "https://www.youtube.com/watch?v=dVUmSgzgOqs",
+      "author": "Billie Eilish",
+      "dataRelease": "2018",
+      "genre": "Pop",
+      "totalViews": "150 378 713 ",
+      "album": "dont smile at me",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 23,
+      "title": "Mocking Bird",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/3/34/%D0%AD%D0%9C%D0%98%D0%9D%D0%95%D0%9CMockingbird.jpg",
+      "video": "https://www.youtube.com/watch?v=S9bCLPwzSC0",
+      "author": "Eminem",
+      "dataRelease": "2009",
+      "genre": "Hip Hop",
+      "totalViews": "708 733 899",
+      "album": "Encore",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 24,
+      "title": "Taxman",
+      "img": "https://upload.wikimedia.org/wikipedia/en/e/e3/Taxman_sheet_music_cover.jpg",
+      "video": "https://www.youtube.com/watch?v=l0zaebtU-CA",
+      "author": "Beatles",
+      "dataRelease": "2009",
+      "genre": "Rock",
+      "totalViews": "10 091 641",
+      "album": " Revolver",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 25,
+      "title": "Sweet Lady",
+      "img": "https://cdns-images.dzcdn.net/images/cover/4e627572cff4c5e9737fe690c67dade9/500x500.jpg",
+      "video": "https://www.youtube.com/watch?v=hdCICEB-_fk",
+      "author": "Queen",
+      "dataRelease": "2014",
+      "genre": "Rock",
+      "totalViews": "1 195 522 ",
+      "album": " A Night at the Opera",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 26,
+      "title": "therefore i am",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/4/4b/Billie_Eilish_-_Therefore_I_Am.png",
+      "video": "https://www.youtube.com/watch?v=RUQl6YcMalg",
+      "author": "Billie Eilish",
+      "dataRelease": "2020",
+      "genre": "Pop",
+      "totalViews": "216 348 523",
+      "album": "Happier Than Ever",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 27,
+      "title": "Bet you wanna",
+      "img": "https://i.pinimg.com/originals/f7/6b/c9/f76bc99d37f7122dfee070d319d85d30.jpg",
+      "video": "https://www.youtube.com/watch?v=gXBdvSj9F2I",
+      "author": "Blackpink",
+      "dataRelease": "2021",
+      "genre": "Kpop",
+      "totalViews": "63 176 388 ",
+      "album": " THe album",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 28,
+      "title": "blinding lights",
+      "img": "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+      "video": "https://www.youtube.com/watch?v=4NRXx6U8ABQ",
+      "author": "The weeknd",
+      "dataRelease": "2021",
+      "genre": "Pop",
+      "totalViews": "669 562 186  ",
+      "album": " After Hours",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 29,
+      "title": "Idol",
+      "img": "https://img9.yna.co.kr/etc/inner/EN/2021/04/25/AEN20210425000700315_04_i_P4.jpg",
+      "video": "https://www.youtube.com/watch?v=pBuZEGYXA6E",
+      "author": "BTS",
+      "dataRelease": "2018",
+      "genre": "Kpop",
+      "totalViews": "1 194 994 999",
+      "album": "Love Yourself",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 30,
+      "title": "Glow",
+      "img": "https://external-preview.redd.it/XPBFsxT6oBDO_pi_sypFCoBYDaA1J9qrIRr4V3VUfOw.png?auto=webp&s=7c69ac5817f84b75480e9d02f633965034722311",
+      "video": "https://www.youtube.com/watch?v=7pr061VLRfs",
+      "author": "Drake",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "794 001",
+      "album": "More Life",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 31,
+      "title": "i me mine",
+      "img": "https://www.earlybeatles.com/song-images/NS-1970__I%20Me%20Mine.jpg",
+      "video": "https://www.youtube.com/watch?v=seqaTuXkqFI",
+      "author": "Beatles",
+      "dataRelease": "2009",
+      "genre": "Rock",
+      "totalViews": "4 765 210",
+      "album": "Let It Be",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 32,
+      "title": "Save your tears",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/3/3b/Save_Your_Tears.jpg",
+      "video": "https://www.youtube.com/watch?v=XXYlFuWEuKI",
+      "author": "The weeknd",
+      "dataRelease": "2021",
+      "genre": "Pop",
+      "totalViews": "1 046 206 191",
+      "album": "After Hours",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 33,
+      "title": "ice cream",
+      "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Blackpink_%26_Selena_Gomez_-_Ice_Cream.png",
+      "video": "https://www.youtube.com/watch?v=vRXZj0DzXIA",
+      "author": "Blackpink",
+      "dataRelease": "2021",
+      "genre": "Kpop",
+      "totalViews": "811 107 878",
+      "album": "The album",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 34,
+      "title": "Fuck Love",
+      "img": "https://i1.sndcdn.com/artworks-zRv5enuyBqBHEkkl-IP57Qw-t500x500.jpg",
+      "video": "https://www.youtube.com/watch?v=JcWOSgImiRw",
+      "author": "XXXTentacion",
+      "dataRelease": "2018",
+      "genre": "Hip Hop",
+      "totalViews": "383 742 604",
+      "album": "17",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 35,
+      "title": "Fake Love",
+      "img": "https://upload.wikimedia.org/wikipedia/en/8/84/Fake_Love_%28Rocking_Vibe_Mix%29_Cover_Art.jpg",
+      "video": "https://www.youtube.com/watch?v=7C2z4GqqS5E",
+      "author": "BTS",
+      "dataRelease": "2019",
+      "genre": "Kpop",
+      "totalViews": "1 178 637 054",
+      "album": "Love Yourself",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 36,
+      "title": "Kill this love",
+      "img": "https://i.ytimg.com/vi/2S24-y0Ij3Y/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=2S24-y0Ij3Y",
+      "author": "Blackpink",
+      "dataRelease": "2019",
+      "genre": "Kpop",
+      "totalViews": "1 728 383 077",
+      "album": "Kill This Love",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 37,
+      "title": "Look at me!",
+      "img": "https://m.media-amazon.com/images/M/MV5BNDFiMjA2YWYtMmRiYi00MmJkLTk0ZWEtZjg3YTU3NTZkZTMyXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "video": "https://www.youtube.com/watch?v=wJGcwEv7838",
+      "author": "XXXTentacion",
+      "dataRelease": "2017",
+      "genre": "Rock",
+      "totalViews": "577 814 688",
+      "album": "Revenge",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 38,
+      "title": "King Vamp",
+      "img": "https://lastfm.freetls.fastly.net/i/u/ar0/e3793d66097542cdba0615d209c89568",
+      "video": "https://www.youtube.com/watch?v=4PXVUBLjLNc",
+      "author": "Playboi Carti",
+      "dataRelease": "2021",
+      "genre": "Hip Hop",
+      "totalViews": "7 958 178",
+      "album": "Whole Lotta Red",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 39,
+      "title": "In your Eyes",
+      "img": "https://upload.wikimedia.org/wikipedia/ru/0/05/The_Weeknd_-_In_Your_Eyes_%28Kenny_G_Remix%29.png",
+      "video": "https://www.youtube.com/watch?v=E3QiD99jPAg",
+      "author": "The weeknd",
+      "dataRelease": "2021",
+      "genre": "Pop",
+      "totalViews": "107 932 830",
+      "album": "After Hours",
+      "comments": [],
+      "likes": 0
+    },
+    {
+      "id": 40,
+      "title": "Fell in Luv",
+      "img": "https://i1.sndcdn.com/artworks-EtUymzUkOOjkbyfV-QW4PZg-t500x500.jpg",
+      "video": "https://www.youtube.com/watch?v=NbbSXcJ41Fg",
+      "author": "Playboi Carti",
+      "dataRelease": "2019",
+      "genre": "Hip Hop",
+      "totalViews": "4 445 745 ",
+      "album": "Die Lit",
+      "comments": [],
+      "likes": 0
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "title": "The Weeknd",
+      "img": "https://assets.gq.ru/photos/606ab44846145e905d3ecf33/master/pass/GettyImages-1231050791.jpg",
+      "albums": [
+        {
+          "album": "Starboy",
+          "albumImg": "https://avatars.yandex.net/get-music-content/2480468/69048685.a.3952720-2/m1000x1000"
+        },
+        {
+          "album": " After Hours",
+          "albumImg": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "BTS",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/BTS_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg/1200px-BTS_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg",
+      "albums": [
+        {
+          "album": "Be",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/en/a/a2/BTS_-_Be_Cover.png"
+        },
+        {
+          "album": "Love Yourself",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/en/e/e2/BTS%2C_Love_Yourself_Answer%2C_album_cover.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lana Del Rey",
+      "img": "https://cdns-images.dzcdn.net/images/artist/df76fa73a458af753cbe9e5ae64a33cd/500x500.jpg",
+      "albums": [
+        {
+          "album": "Born to die",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/4/47/LanaDelRey_BornToDie.jpg"
+        },
+        {
+          "album": "Ultraviolence",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/7/73/Ultraviolencecoveralbum.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Eminem",
+      "img": "https://n1s1.hsmedia.ru/a6/1b/20/a61b202ca030fe9528a97eb55b5c1c4a/480x497_0xac120003_12391102121602250828.jpg",
+      "albums": [
+        {
+          "album": "The eminem show",
+          "albumImg": "https://i.ytimg.com/vi/K_8yRH2KPVo/maxresdefault.jpg"
+        },
+        {
+          "album": "Encore",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/a/a1/Encore_album.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Drake",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/201025172820-drake-2019-file.jpg?q=w_3000,h_2142,x_0,y_0,c_fill",
+      "albums": [
+        {
+          "album": "Scorpion",
+          "albumImg": "https://i.ytimg.com/vi/az6m9IE8h4o/maxresdefault.jpg"
+        },
+        {
+          "album": "More Life",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/1/19/More_Life.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Queen",
+      "img": "https://img.audiomania.ru/images/content/Queen_geektimes_3_2016.jpeg",
+      "albums": [
+        {
+          "album": "News of the World",
+          "albumImg": "https://cdns-images.dzcdn.net/images/cover/c43a1011106beda256e5371be1b00271/350x350.jpg"
+        },
+        {
+          "album": " A Night at the Opera",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/4/41/A_Night_At_The_Opera%28Queen%29.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Billie Eilish",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg/1200px-Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg",
+      "albums": [
+        {
+          "album": "dont smile at me",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png"
+        },
+        {
+          "album": "Happier Than Ever",
+          "albumImg": "https://spiritofrock.ru/wp-content/uploads/2021/10/Billie-Eilish-Happier-Than-Ever-Tour-1000x600-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Beatles",
+      "img": "https://cdn.britannica.com/18/136518-050-CD0E49C6/The-Beatles-Ringo-Starr-Paul-McCartney-George.jpg",
+      "albums": [
+        {
+          "album": "Revolver",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/c/c7/The_Beatles_-_Revolver.jpg"
+        },
+        {
+          "album": "Let It Be",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/3/3f/The_Beatles_-_Let_It_Be.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Blackpink",
+      "img": "https://static.wikia.nocookie.net/kpop/images/c/c4/BLACKPINK_Pink_Venom_group_promotional_photo_2.png/revision/latest?cb=20220823081639&path-prefix=ru",
+      "albums": [
+        {
+          "album": "The album",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c1/The_Album.jpg/1200px-The_Album.jpg"
+        },
+        {
+          "album": "Kill This Love",
+          "albumImg": "https://m.media-amazon.com/images/M/MV5BMDQ4NWVmZTAtNGZlNi00ZDhiLWI1N2MtM2JmYWE4OWU5Y2I4XkEyXkFqcGdeQXVyNDg4MjkzNDk@._V1_.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "XXXTentacion",
+      "img": "https://resprod.ru/wp-content/uploads/sites/2/2018/06/xxxvibe.jpg",
+      "albums": [
+        {
+          "album": "17",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/e/eb/17_by_XXXTentacion_cover.jpg"
+        },
+        {
+          "album": "Revenge",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/7/7e/Revenge_Single_Cover.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Playboi Carti",
+      "img": "https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/cj1iw7dviovzt4rppewp/playboi-carti-getty-timothy-norris?fimg-ssr-default",
+      "albums": [
+        {
+          "album": "Whole Lotta Red",
+          "albumImg": "https://media.pitchfork.com/photos/5fe1fc4eb35e0eefa6919e92/1:1/w_1080,h_1080,c_limit/Playboi-Carti.jpg"
+        },
+        {
+          "album": "Die Lit",
+          "albumImg": "https://upload.wikimedia.org/wikipedia/ru/thumb/c/c6/Die_Lit_by_Playboi_Carti.jpg/1200px-Die_Lit_by_Playboi_Carti.jpg"
+        }
+      ]
+    }
+  ],
+  "subscriptions": [
+    {
+      "title": "Free",
+      "opportunities": [
+        {
+          "value": false,
+          "desc": "Can create own playlist"
+        },
+        {
+          "value": 18,
+          "desc": "Available songs"
+        },
+        {
+          "value": false,
+          "desc": "Can comment songs"
+        },
+        {
+          "value": false,
+          "desc": "Can add songs to favorites"
+        },
+        {
+          "value": false,
+          "desc": "Can edit own account"
+        }
+      ],
+      "price": ""
+    },
+    {
+      "title": "Medium",
+      "opportunities": [
+        {
+          "value": false,
+          "desc": "Can create own playlist"
+        },
+        {
+          "value": 27,
+          "desc": "Available songs"
+        },
+        {
+          "value": true,
+          "desc": "Can comment songs"
+        },
+        {
+          "value": false,
+          "desc": "Can add songs to favorites"
+        },
+        {
+          "value": true,
+          "desc": "Can edit own account"
+        }
+      ],
+      "price": "4.99$"
+    },
+    {
+      "title": "Premium",
+      "opportunities": [
+        {
+          "value": true,
+          "desc": "Can create own playlist"
+        },
+        {
+          "value": 39,
+          "desc": "Available songs"
+        },
+        {
+          "value": true,
+          "desc": "Can comment songs"
+        },
+        {
+          "value": true,
+          "desc": "Can add songs to favorites"
+        },
+        {
+          "value": true,
+          "desc": "Can edit own account"
+        }
+      ],
+      "price": "7.99$  "
+    }
+  ],
+  "users": [
+    {
+      "email": "shura.ni.99@bk.ru",
+      "password": "$2a$10$nHU90f09cTUYu35pb38pdu9/LvrhTr/ruRYD/gP7yeb/U84uXz7ou",
+      "username": "Саня крут",
+      "acceptPrivacy": true,
+      "aboutMe": "",
+      "playlists": [],
+      "avatar": "",
+      "subscription": "Premium",
+      "id": 1
+    },
+    {
+      "email": "ano164y@gmail.com",
+      "password": "$2a$10$zU36qdyXxSIs9huGoh3Au.Qyz4yMjO5EqE4YvnVcR3Yl0BukFmQ/m",
+      "username": "demo acc",
+      "acceptPrivacy": true,
+      "aboutMe": "",
+      "playlists": [],
+      "avatar": "",
+      "subscription": "Free",
+      "id": 2
+    }
+  ]
+}
