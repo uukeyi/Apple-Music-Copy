@@ -6,13 +6,19 @@ import { BrowserRouter } from "react-router-dom";
 import { store } from "./reduxToolkit";
 import { Provider } from "react-redux";
 import { AuthProvider } from "./contexts/authContext";
+import { AvatarProvider } from "./contexts/avatarContext";
+import { UserProvider } from "./contexts/userContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
    <BrowserRouter>
       <AuthProvider>
-         <Provider store={store}>
-            <App />
-         </Provider>
+         <AvatarProvider>
+            <Provider store={store}>
+               <UserProvider>
+                  <App />
+               </UserProvider>
+            </Provider>
+         </AvatarProvider>
       </AuthProvider>
    </BrowserRouter>
 );
