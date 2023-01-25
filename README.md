@@ -1,5 +1,10 @@
-# Getting Started with Create React App
-
+# To start the app run scripts below  
+## First  
+### `npm i or npm install`  
+## Second  
+### `npm run server or json-server db.json -m ./node_modules/json-server-auth -r routes.json -p 8000`  
+## Third  
+### `npm start`  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
