@@ -4,21 +4,13 @@
       "id": 1,
       "title": "Die for you",
       "img": "https://i.ytimg.com/vi/mTLQhPFx2nM/maxresdefault.jpg",
-      "video": "https://www.youtube.com/embed/watch?v=RpyN9pFXUCg",
+      "video": "https://www.youtube.com/watch?v=RpyN9pFXUCg",
       "author": "The weeknd",
       "dataRelease": "2018",
       "genre": "Hip Hop",
       "totalViews": "43 699 640",
       "album": "Starboy",
-      "comments": [
-        {
-          "avatar": "",
-          "id": 1,
-          "username": "Саня крут",
-          "message": "Hello from Javascript Utils",
-          "commentId": 0
-        }
-      ],
+      "comments": [],
       "likes": 0
     },
     {
@@ -37,7 +29,7 @@
     {
       "id": 3,
       "title": "Life goes on",
-      "img": "https://www.soyuz.ru/public/uploads/files/2/7451234/20201120131949c61779b32e.jpg",
+      "img": "https://ru.dimashnews.com/wp-content/uploads/2020/11/2a641c39c7119c963e5a-1068x1068.jpg",
       "video": "https://www.youtube.com/watch?v=RvcP6V4h_q4",
       "author": "BTS",
       "dataRelease": "2020",
@@ -128,14 +120,15 @@
     {
       "id": 10,
       "title": "Superman",
-      "img": "https://www.eminem.pro/wp-content/uploads/2021/02/superman.jpg",
+      "img": "https://i1.sndcdn.com/artworks-DmwfD7T2XUP5-0-t500x500.jpg",
       "video": "https://www.youtube.com/watch?v=8kYkciD9VjU",
       "author": "Eminem",
       "dataRelease": "2009",
       "genre": "Hip Hop",
       "totalViews": "138 620 291",
       "album": "The eminem show",
-      "comments": [],
+      "comments": [
+      ],
       "likes": 0
     },
     {
@@ -154,7 +147,7 @@
     {
       "id": 12,
       "title": "We will rock you",
-      "img": "https://rock-history.ru/upload/000/u1/009/34a8f977.jpg",
+      "img": "https://i1.sndcdn.com/artworks-0pcgjdyoHeR31bor-33HDJg-t500x500.jpg",
       "video": "https://www.youtube.com/watch?v=y3Ca3c6J9N4",
       "author": "Queen",
       "dataRelease": "1977",
@@ -167,7 +160,7 @@
     {
       "id": 13,
       "title": "West Coast",
-      "img": "https://upload.wikimedia.org/wikipedia/ru/c/c1/Lana_Del_Rey_-_West_Coast.png",
+      "img": "https://live.staticflickr.com/3813/13853263755_199564558e_z.jpg",
       "video": "https://www.youtube.com/watch?v=oKxuiw3iMBE",
       "author": "Lana Del Rey",
       "dataRelease": "2014",
@@ -193,7 +186,7 @@
     {
       "id": 15,
       "title": "We are the chapmions",
-      "img": "https://m.media-amazon.com/images/M/MV5BNWM2NGQ4YTAtNDljNi00YjFlLWI1M2ItMzQyZTY2Mzg1ZGRhXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg",
+      "img": "https://avatars.yandex.net/get-music-content/28589/9008900e.a.225652-1/m1000x1000",
       "video": "https://www.youtube.com/watch?v=04854XqcfCY",
       "author": "Queen",
       "dataRelease": "2008",
@@ -219,7 +212,7 @@
     {
       "id": 18,
       "title": "Without me",
-      "img": "https://pics.filmaffinity.com/Eminem_Without_Me_Music_Video-152736505-large.jpg",
+      "img": "https://i1.sndcdn.com/artworks-DmwfD7T2XUP5-0-t500x500.jpg",
       "video": "https://www.youtube.com/watch?v=YVkUvmDQ3HY",
       "author": "Eminem",
       "dataRelease": "2009",
@@ -284,7 +277,7 @@
     {
       "id": 23,
       "title": "Mocking Bird",
-      "img": "https://upload.wikimedia.org/wikipedia/ru/3/34/%D0%AD%D0%9C%D0%98%D0%9D%D0%95%D0%9CMockingbird.jpg",
+      "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/be/e0/01bee04f-a126-4f42-fa54-ff3b37c97639/06UMGIM16683.rgb.jpg/1200x1200bb.jpg",
       "video": "https://www.youtube.com/watch?v=S9bCLPwzSC0",
       "author": "Eminem",
       "dataRelease": "2009",
@@ -297,7 +290,7 @@
     {
       "id": 24,
       "title": "Taxman",
-      "img": "https://upload.wikimedia.org/wikipedia/en/e/e3/Taxman_sheet_music_cover.jpg",
+      "img": "https://i.ytimg.com/vi/gMdcE8jdz70/maxresdefault.jpg",
       "video": "https://www.youtube.com/watch?v=l0zaebtU-CA",
       "author": "Beatles",
       "dataRelease": "2009",
@@ -388,7 +381,7 @@
     {
       "id": 31,
       "title": "i me mine",
-      "img": "https://www.earlybeatles.com/song-images/NS-1970__I%20Me%20Mine.jpg",
+      "img": "https://i.discogs.com/RiMIMAf4VwUjI7gqWDceXx03QlW6tT-OZNiWWkhWMFI/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMTI2/NTMtMTM1NTY1NTQ1/OC0yMTU2LmpwZWc.jpeg",
       "video": "https://www.youtube.com/watch?v=seqaTuXkqFI",
       "author": "Beatles",
       "dataRelease": "2009",
@@ -414,7 +407,7 @@
     {
       "id": 33,
       "title": "ice cream",
-      "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Blackpink_%26_Selena_Gomez_-_Ice_Cream.png",
+      "img": "https://www.allkpop.com/upload/2020/08/content/281647/1598647634-blackpink.jpg",
       "video": "https://www.youtube.com/watch?v=vRXZj0DzXIA",
       "author": "Blackpink",
       "dataRelease": "2021",
@@ -492,7 +485,7 @@
     {
       "id": 39,
       "title": "In your Eyes",
-      "img": "https://upload.wikimedia.org/wikipedia/ru/0/05/The_Weeknd_-_In_Your_Eyes_%28Kenny_G_Remix%29.png",
+      "img": "https://w0.peakpx.com/wallpaper/921/217/HD-wallpaper-the-weeknd-in-your-eyes-xo.jpg",
       "video": "https://www.youtube.com/watch?v=E3QiD99jPAg",
       "author": "The weeknd",
       "dataRelease": "2021",
@@ -520,7 +513,7 @@
     {
       "id": 1,
       "title": "The Weeknd",
-      "img": "https://assets.gq.ru/photos/606ab44846145e905d3ecf33/master/pass/GettyImages-1231050791.jpg",
+      "img": "https://s4.afisha.ru/mediastorage/cc/61/78eb7b6af17b45ac8d871f5661cc.jpg",
       "albums": [
         {
           "album": "Starboy",
@@ -535,7 +528,7 @@
     {
       "id": 2,
       "title": "BTS",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/BTS_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg/1200px-BTS_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1097661412.jpg?crop=0.665xw:1.00xh;0.173xw,0&resize=1200:*",
       "albums": [
         {
           "album": "Be",
@@ -640,7 +633,7 @@
     {
       "id": 9,
       "title": "Blackpink",
-      "img": "https://static.wikia.nocookie.net/kpop/images/c/c4/BLACKPINK_Pink_Venom_group_promotional_photo_2.png/revision/latest?cb=20220823081639&path-prefix=ru",
+      "img": "https://n1s2.hsmedia.ru/df/1d/c5/df1dc5e05dccd586290f31256acd2c77/1385x1385_0xac120003_17457783191669286334.jpeg",
       "albums": [
         {
           "album": "The album",
@@ -701,10 +694,6 @@
         },
         {
           "value": false,
-          "desc": "Can add songs to favorites"
-        },
-        {
-          "value": false,
           "desc": "Can edit own account"
         }
       ],
@@ -724,10 +713,6 @@
         {
           "value": true,
           "desc": "Can comment songs"
-        },
-        {
-          "value": false,
-          "desc": "Can add songs to favorites"
         },
         {
           "value": true,
@@ -753,38 +738,11 @@
         },
         {
           "value": true,
-          "desc": "Can add songs to favorites"
-        },
-        {
-          "value": true,
           "desc": "Can edit own account"
         }
       ],
       "price": "7.99$  "
     }
   ],
-  "users": [
-    {
-      "email": "shura.ni.99@bk.ru",
-      "password": "$2a$10$nHU90f09cTUYu35pb38pdu9/LvrhTr/ruRYD/gP7yeb/U84uXz7ou",
-      "username": "Саня крут",
-      "acceptPrivacy": true,
-      "aboutMe": "",
-      "playlists": [],
-      "avatar": "",
-      "subscription": "Premium",
-      "id": 1
-    },
-    {
-      "email": "ano164y@gmail.com",
-      "password": "$2a$10$zU36qdyXxSIs9huGoh3Au.Qyz4yMjO5EqE4YvnVcR3Yl0BukFmQ/m",
-      "username": "demo acc",
-      "acceptPrivacy": true,
-      "aboutMe": "",
-      "playlists": [],
-      "avatar": "",
-      "subscription": "Free",
-      "id": 2
-    }
-  ]
+  "users": []
 }

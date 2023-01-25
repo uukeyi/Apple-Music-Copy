@@ -12,6 +12,8 @@ import SongsPage from "./pages/SongsPage";
 import ArtistsPage from "./pages/ArtistsPage";
 import SongPage from "./pages/SongPage";
 import ArtistPage from "./pages/ArtistPage";
+import ProfilePage from "./pages/ProfilePage";
+import PlaylistPage from "./pages/PlaylistPage";
 function App() {
    return (
       <>
@@ -30,6 +32,8 @@ function App() {
                <Route path="songs/:song" element = {<SongPage/>}/>
                <Route path="artists" element = {<ArtistsPage/>}/>
                <Route path="artists/:artist" element = {<ArtistPage/>}/>
+               <Route path="profile/:id" element = {<ProfilePage/>}/>
+               <Route path="playlist/:id" element = {<PlaylistPage/>}/>
             </Route>
             <Route path="/preview" element={<PreviewPage />} />
             <Route path="signIn" element={<SignIn />} />
