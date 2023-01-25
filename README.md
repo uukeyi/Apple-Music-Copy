@@ -1,6 +1,7 @@
 # To start the app run scripts below  
 ## First  
-### `npm i or npm install`  
+### `npm i or npm install`
+#### if npm install didn't work run npm install --save --legacy-peer-deps  
 ## Second  
 ### `npm run server or json-server db.json -m ./node_modules/json-server-auth -r routes.json -p 8000`  
 ## Third  
