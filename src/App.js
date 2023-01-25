@@ -14,7 +14,7 @@ import SongPage from "./pages/SongPage";
 import ArtistPage from "./pages/ArtistPage";
 import ProfilePage from "./pages/ProfilePage";
 import PlaylistPage from "./pages/PlaylistPage";
-function App() {
+function App() { 
    return (
       <>
          <Routes>
