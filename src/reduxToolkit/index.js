@@ -10,6 +10,7 @@ const rootReducer = combineReducers({
     getData : dataSlice,
     getPaginatedData : paginateDataSlice,
     buySubscription : buySubscriptionSlice,
+    
 })
 export const store = configureStore({
     reducer : rootReducer

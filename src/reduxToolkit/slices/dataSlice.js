@@ -11,6 +11,7 @@ const dataSlice = createSlice({
         [getData.fulfilled] : (state , action) => {
             state.data = action.payload
             state.status = 'fulfilled'
+            state.error = ''
         },
         [getData.rejected] : (state , action) => {
             state.status = 'rejected'

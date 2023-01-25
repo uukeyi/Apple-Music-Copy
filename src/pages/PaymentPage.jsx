@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
    Container,
    TextField,
@@ -15,19 +15,23 @@ import { buySubscription } from "../reduxToolkit/async/buySubscription";
 function PaymentPage() {
    const { id, price } = useParams();
    const { status, error } = useSelector((state) => state.buySubscription);
+   const [isSuccess, setIsSuccess] = useState(false);
    const dispatch = useDispatch();
    const {
       register,
       formState: { errors },
       handleSubmit,
       setValue,
-      getValues
    } = useForm({
       mode: "onSubmit",
    });
    const onSubmit = () => {
       dispatch(
-         buySubscription({ userId: localStorage.getItem("userId"), sub: id })
+         buySubscription({
+            userId: localStorage.getItem("userId"),
+            sub: id,
+            setSuccess: setIsSuccess,
+         })
       );
    };
    const maxLengthInput = (value, number, name) => {
@@ -50,6 +54,7 @@ function PaymentPage() {
          setValue("ownerName", result.toUpperCase());
       }
    };
+
    return (
       <Container>
          <form onSubmit={handleSubmit(onSubmit)}>
@@ -81,7 +86,8 @@ function PaymentPage() {
                   variant="standard"
                   {...register("ownerName", {
                      required: "This field is necessarily for filling",
-                     validate : (value , formValue) => value.includes(' ') || 'Please use whitespace'
+                     validate: (value) =>
+                        value.includes(" ") || "Please use whitespace",
                   })}
                   onChange={(e) => nameValidate(e.target.value)}
                />
@@ -93,10 +99,10 @@ function PaymentPage() {
                   variant="standard"
                   {...register("ccNumber", {
                      required: "This field is necessarily for filling",
-                     minLength : {
-                        value : 16,
-                        message : "Can not be less than 16"
-                     }
+                     minLength: {
+                        value: 16,
+                        message: "Can not be less than 16",
+                     },
                   })}
                   onChange={(e) =>
                      formatAndSetCcNumber(e, "ccNumber", setValue)
@@ -112,10 +118,10 @@ function PaymentPage() {
                   type="number"
                   {...register("expiry", {
                      required: "This field is necessarily for filling",
-                     minLength : {
-                        value : 4,
-                        message : 'Can not be less than 4'
-                     }
+                     minLength: {
+                        value: 4,
+                        message: "Can not be less than 4",
+                     },
                   })}
                   onChange={(e) => maxLengthInput(e.target.value, 4, "expiry")}
                />
@@ -128,10 +134,10 @@ function PaymentPage() {
                   type="number"
                   {...register("ccv", {
                      required: "This field is necessarily for filling",
-                     minLength : {
-                        value : 3,
-                        message : 'Can not be less than 3'
-                     }
+                     minLength: {
+                        value: 3,
+                        message: "Can not be less than 3",
+                     },
                   })}
                   onChange={(e) => maxLengthInput(e.target.value, 3, "ccv")}
                />
@@ -147,7 +153,7 @@ function PaymentPage() {
                {status === "rejected" ? (
                   <Alert type="error" text={error} />
                ) : null}
-               {status === "fulfilled" ? (
+               {isSuccess ? (
                   <Alert
                      type="success"
                      text={"Your purchase successfully done!"}
