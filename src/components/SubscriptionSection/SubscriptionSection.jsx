@@ -6,15 +6,19 @@ import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../../reduxToolkit/async/data";
 import { SUBSCRIPTIONS_API } from "../../API";
 import SubscriptionCard from "../SubscriptionCard/SubscriptionCard";
+import { StarOutlineSharp } from "@mui/icons-material";
 function SubscriptionSection() {
    const dispatch = useDispatch();
    const {status , error , data} = useSelector(state => state.getData)
    useEffect(() => {
       dispatch(getData( SUBSCRIPTIONS_API ));
    }, []);
-  if(status === 'rejected'){
-   alert('Error' , error)
-  }
+   useEffect(() => {
+      if(status === 'rejected'){
+         alert('Server Error')
+        }
+   } , [status])
+
    return (
       <Stack
          direction={{ xs: "column", sm: "column", lg: "row" }}

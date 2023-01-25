@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel as CarouselMUI } from "react-responsive-carousel";
 import CarouselItem from "../CarouselItem/CarouselItem";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Carousel() {
    const carouselImg = [

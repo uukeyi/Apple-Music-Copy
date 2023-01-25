@@ -89,12 +89,6 @@ function SignIn() {
                   {errors?.password && (
                      <Alert type="error" text={errors?.password?.message} />
                   )}
-                  <FormGroup>
-                     <FormControlLabel
-                        control={<Checkbox color="default" defaultChecked />}
-                        label="Remember me"
-                     />
-                  </FormGroup>
                   <Button type="submit" variant="contained">
                      Submit
                   </Button>
