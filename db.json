@@ -10,7 +10,8 @@
       "genre": "Hip Hop",
       "totalViews": "43 699 640",
       "album": "Starboy",
-      "comments": [],
+      "comments": [
+      ],
       "likes": 0
     },
     {
@@ -127,8 +128,7 @@
       "genre": "Hip Hop",
       "totalViews": "138 620 291",
       "album": "The eminem show",
-      "comments": [
-      ],
+      "comments": [],
       "likes": 0
     },
     {
@@ -744,5 +744,7 @@
       "price": "7.99$  "
     }
   ],
-  "users": []
+  "users": [
+   
+  ]
 }
