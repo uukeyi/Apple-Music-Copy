@@ -28,7 +28,6 @@ function FormEditAcc({data , setData , setAvatar , avatar , aboutMe , username ,
            <TextField
               label="Your Nickname"
               placeholder={username}
-            //   value = {username}
               {...register("editUsername", {
                  required: "Required fill",
                  minLength: {
@@ -52,7 +51,6 @@ function FormEditAcc({data , setData , setAvatar , avatar , aboutMe , username ,
            <TextField
               label="Your Avatar link"
               placeholder={avatar}
-            //   value={avatar}
               {...register("editAvatar", {
                  required: "Required fill",
                  validate: (value) => validateURL(value),
@@ -74,7 +72,6 @@ function FormEditAcc({data , setData , setAvatar , avatar , aboutMe , username ,
            <TextareaAutosize
               aria-label="empty textarea"
               placeholder={aboutMe}
-            //   value={aboutMe}
               style={{
                  width: "66%",
                  maxHeight: "100px",

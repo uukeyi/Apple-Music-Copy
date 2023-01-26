@@ -3,7 +3,7 @@ import { Stack } from "@mui/system";
 import { Typography, Box } from "@material-ui/core";
 import InfoCard from "../InfoCard/InfoCard";
 import Alert from "../Alert/Alert";
-function FlexStack({ array, status, error , path , deleteBtn }) {
+function FlexStack({ array, status, error , path , deleteBtn  }) {
    if (status === "rejected") {
       return (
          <Box style={{ marginTop: "60px" }}>

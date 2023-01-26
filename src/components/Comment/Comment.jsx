@@ -7,9 +7,9 @@ import {
    editComment,
    postEditComment,
 } from "../../utils/comment";
-import { MUSIC_API } from "../../API";
-import { useParams } from "react-router-dom";
-import { useAvatar } from "../../contexts/avatarContext";
+import { MUSIC_API} from "../../API";
+import { useNavigate, useParams } from "react-router-dom";
+
 function Comment({
    img,
    text,
@@ -22,12 +22,12 @@ function Comment({
    setComments,
 }) {
    const { song } = useParams();
-   const {avatar} = useAvatar()
+   const navigate = useNavigate();
    const {
       register,
       formState: { errors },
       handleSubmit,
-    reset
+      reset,
    } = useForm({
       mode: "onSubmit",
    });
@@ -35,7 +35,7 @@ function Comment({
       alert(errors?.editComment?.message);
    }
    const onSubmit = (data) => {
-      reset()
+      reset();
       const editedComments = comments.map((comment) => {
          if (comment.commentId === commentId) {
             comment = {
@@ -73,18 +73,26 @@ function Comment({
                   justifyContent: "space-between",
                }}
             >
-               <Typography style={{ fontSize: "1rem" , textTransform : 'uppercase' }}>{username}</Typography>
+               <Typography
+                  style={{ fontSize: "1rem", textTransform: "uppercase" }}
+               >
+                  {username}
+               </Typography>
 
                <img
                   style={{
                      width: "40px",
                      height: "40px",
                      borderRadius: "100%",
+                     cursror: "pointer",
+                  }}
+                  onClick={() => {
+                     navigate(`/profile/${id}`);
                   }}
                   src={
-                     avatar === ""
+                     img === ""
                         ? "https://t4.ftcdn.net/jpg/03/59/58/91/360_F_359589186_JDLl8dIWoBNf1iqEkHxhUeeOulx0wOC5.jpg"
-                        : avatar
+                        : img
                   }
                   alt={username}
                />
@@ -147,8 +155,8 @@ function Comment({
                               style={{
                                  alignSelf: "flex-start",
                                  fontSize: "11px",
-                                 marginTop : '10px',
-                                 color : "grey"
+                                 marginTop: "10px",
+                                 color: "grey",
                               }}
                            >
                               Edited

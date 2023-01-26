@@ -26,7 +26,7 @@ function ArtistPage() {
     }
    })
    const classes = useStyles()
-   const { data, status, error } = useSelector((state) => state.getData);
+   const { data, } = useSelector((state) => state.getData);
    useEffect(() => {
       dispatch(getData(`${ARTISTS_API}/${artist}`));
    }, []);

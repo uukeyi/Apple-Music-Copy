@@ -53,13 +53,13 @@ function NavBar({ toggleDrawer }) {
                   onClick={toggleDrawer}
                   to={`profile/${localStorage.getItem("userId")}`}
                >
-                  {avatar === ''? (
+                  {avatar === '' || localStorage.getItem('avatar') === ''? (
                      <PersonIcon
                         className="icon"
                         style={{ fontSize: "2rem" }}
                      />
                   ) : (
-                     <img style={{width : '40px' , height : '40px' , borderRadius : '100%' , border : '1px solid black'}} src={avatar} alt="Profile" />
+                     <img style={{width : '40px' , height : '40px' , borderRadius : '100%' , border : '1px solid black'}} src={localStorage.getItem('avatar')} alt="Profile" />
                   )}
                </NavLink>
             </ListItemIcon>

@@ -38,9 +38,6 @@ function ArtistsPage() {
          setPageCount(+e.target.dataset.id);
       }
    };
-//    useEffect(() => {
-//     generatePaginateBtns(11, limitArtist, setAmountBtn);
-//    } , [])
    useEffect(() => {
     dispatch(
         paginateData({

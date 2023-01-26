@@ -189,7 +189,7 @@ function SongPage() {
             <Button
                style={{ marginTop: "30px" }}
                variant="outlined"
-               onClick={() => navigate(-1)}
+               onClick={() => navigate('/')}
             >
                Go back
             </Button>

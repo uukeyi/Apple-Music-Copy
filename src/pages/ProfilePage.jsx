@@ -22,27 +22,33 @@ function ProfilePage() {
    const handleOpen = () => setOpen(true);
    const handleClose = () => setOpen(false);
    const [open, setOpen] = useState(false);
+   const [deleteBtn, setDeleteBtn] = useState(true);
    useEffect(() => {
+      dispatch(getData(`${USERS_API}/${id}`));
       if (+localStorage.getItem("userId") === +id) {
          setIsOwnAcc(true);
       }
-   }, []);
+   }, [id]);
    const { userContext, setUserContext, playlists, setPlaylists } = useUser();
    const dispatch = useDispatch();
    const { data, status, error } = useSelector((state) => state.getData);
    useEffect(() => {
-      dispatch(getData(`${USERS_API}/${localStorage.getItem("userId")}`));
-   }, []);
+      if (!isOwnAcc) {
+         setDeleteBtn(false);
+      } else {
+         setDeleteBtn(true);
+      }
+   }, [isOwnAcc]);
    useEffect(() => {
       setUserContext(data);
-      setPlaylists(data.playlists)
+      setPlaylists(data.playlists);
    }, [data]);
    useEffect(() => {
-      if (status === "rejected" && error !== '') {
+      if (status === "rejected" && error !== "") {
          alert("Server error");
          navigate("/signIn");
       }
-   } , [status])
+   }, [status]);
    const { avatar, username, aboutMe, subscription } = userContext;
    return (
       <div>
@@ -117,16 +123,28 @@ function ProfilePage() {
                         : "This user currently doesn't have avatar"}
                   </Typography>
                   {isOwnAcc ? (
-                     <Button
-                        onClick={() => {
-                           setIsCreatePlaylist(false);
-                           handleOpen();
-                        }}
-                        style={{ marginTop: "30px" }}
-                        variant="contained"
-                     >
-                        Edit account
-                     </Button>
+                     <>
+                        <Button
+                           onClick={() => {
+                              setIsCreatePlaylist(false);
+                              handleOpen();
+                           }}
+                           style={{ marginTop: "30px" }}
+                           variant="contained"
+                        >
+                           Edit account
+                        </Button>
+                        <Button
+                           onClick={() => {
+                              localStorage.clear();
+                              navigate("/preview");
+                           }}
+                           style={{ marginTop: "20px" }}
+                           variant="contained"
+                        >
+                           logout account
+                        </Button>
+                     </>
                   ) : null}
                </Box>
                <Stack
@@ -200,8 +218,8 @@ function ProfilePage() {
                      array={playlists}
                      status={status}
                      error={error}
-                     deleteBtn={true}
-                     path = {'/playlist'}
+                     deleteBtn={deleteBtn}
+                     path={"/playlist"}
                   />
                </>
             )}

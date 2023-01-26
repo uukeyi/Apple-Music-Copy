@@ -8,7 +8,7 @@ export const signUp = createAsyncThunk(
          await axios.post("http://localhost:8000/register", {
             ...data,
             aboutMe: "",
-            playlistInfo: [],
+            playlists: [],
             avatar: "",
             subscription : 'Free',
             favorites : []
