@@ -23,7 +23,7 @@ export const signIn = createAsyncThunk(
    async ({ data,  setAuth, isAuthObj } , {rejectWithValue}) => {
       try {
          const response = await axios.post("http://localhost:8000/login", data);
-         setAuth({ ...isAuthObj, isAuth: true });
+         setAuth({ ...isAuthObj, isAuth: true , renderCount : 0 });
          return {
             userId: response.data.user.id,
             accessToken: response.data.accessToken,

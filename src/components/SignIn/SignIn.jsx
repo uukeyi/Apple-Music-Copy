@@ -1,25 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
    Box,
    Container,
    TextField,
    Typography,
    Button,
-   Checkbox,
-   FormGroup,
-   FormControlLabel,
    Link as MUIlLink,
 } from "@material-ui/core";
 import { useForm } from "react-hook-form";
-import { Link, Navigate } from "react-router-dom";
+import { Link,  useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signIn } from "../../reduxToolkit/async/auth";
 import Alert from "../Alert/Alert";
 import { useAuth } from "../../contexts/authContext";
+import { useState } from "react";
 function SignIn() {
    const dispatch = useDispatch();
    const { setIsAuth, isAuthObj } = useAuth();
-   const { status, error } = useSelector((state) => state.authIn);
+   let { status, error } = useSelector((state) => state.authIn);
+   const navigate = useNavigate();
    const {
       register,
       formState: { errors },
@@ -28,14 +27,16 @@ function SignIn() {
       mode: "onChange",
    });
    const onSubmit = async (data) => {
+      console.log("hello");
       dispatch(
          signIn({ data: data, setAuth: setIsAuth, isAuthObj: isAuthObj })
       );
    };
-   if (status === "fulfilled") {
-      return <Navigate to={"/"} />;
-   }
-
+   useEffect(() => {
+      if (isAuthObj.isAuth && isAuthObj.renderCount === 0) {
+         navigate("/");
+      }
+   }, [isAuthObj]);
    return (
       <div>
          <Container>

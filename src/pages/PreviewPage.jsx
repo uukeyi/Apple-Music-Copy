@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../components/Header/Header";
 import { Link } from "react-router-dom";
 import { Button, Container, Typography, makeStyles } from "@material-ui/core";
@@ -26,7 +26,7 @@ function PreviewPage() {
          <Header>
             <Button
                component={Link}
-               to={"/signIn"}
+               to={"/signUp"}
                variant="contained"
                className="header-btn"
             >

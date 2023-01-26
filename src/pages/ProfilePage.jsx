@@ -137,7 +137,7 @@ function ProfilePage() {
                         <Button
                            onClick={() => {
                               localStorage.clear();
-                              navigate("/preview");
+                              navigate("/signUp");
                            }}
                            style={{ marginTop: "20px" }}
                            variant="contained"
