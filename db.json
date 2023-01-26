@@ -692,7 +692,7 @@
           "desc": "Can comment songs"
         },
         {
-          "value": false,
+          "value": true,
           "desc": "Can edit own account"
         }
       ],
