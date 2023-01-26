@@ -10,8 +10,7 @@
       "genre": "Hip Hop",
       "totalViews": "43 699 640",
       "album": "Starboy",
-      "comments": [
-      ],
+      "comments": [],
       "likes": 0
     },
     {
@@ -745,6 +744,5 @@
     }
   ],
   "users": [
-   
   ]
 }
