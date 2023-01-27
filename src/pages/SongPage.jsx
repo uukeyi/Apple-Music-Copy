@@ -56,15 +56,6 @@ function SongPage() {
       totalViews,
       comments,
    } = data;
-   const [commentsArr, setCommentsArr] = useState([]);
-   useEffect(() => {
-      dispatch(getData(`${MUSIC_API}/${song}`));
-   }, []);
-   useEffect(() => {
-      if (comments !== undefined) {
-         setCommentsArr(comments);
-      }
-   }, [comments]);
    const useStyles = makeStyles({
       title: {
          fontSize: "2rem",
@@ -77,10 +68,33 @@ function SongPage() {
          whiteSpace: "nowrap",
       },
    });
+   const [commentsArr, setCommentsArr] = useState([]);
    const classes = useStyles();
    const { song } = useParams();
-   const { playlists, setPlaylists } = useUser();
+   const { userContext, setUserContext, playlists, setPlaylists } = useUser();
+   useEffect(() => {
+      dispatch(getData(`${MUSIC_API}/${song}`));
+   }, []);
+   useEffect(() => {
+      if (comments !== undefined) {
+         setCommentsArr(comments);
+      }
+   }, [comments]);
+   // useEffect(() => {
+   //    const getUser = async () => {
+   //       try {
+   //          const response = await axios.get(
+   //             `${USERS_API}/${localStorage.getItem("userId")}`
+   //          );
+   //          setUserContext(response.data);
+   //       } catch (error) {
+   //          alert("Something went wrong with getting user data");
+   //       }
+   //    };
+   //    getUser();
+   // }, []);
    const dispatch = useDispatch();
+   // const {avatar , id , username} = userContext
    const {
       register,
       formState: { errors },
@@ -100,17 +114,10 @@ function SongPage() {
 
    const onSubmit = async (data) => {
       reset();
-      try {
-         const response = await axios.get(
-            `${USERS_API}/${localStorage.getItem("userId")}`
-         );
-         const { avatar, id, username } = response.data;
          commentSong({
             requestLink: `${MUSIC_API}/${song}`,
             post: {
-               avatar: avatar,
-               id: id,
-               username: username,
+               id: localStorage.getItem('userId'),
                message: data.comment,
                commentId: Math.random(),
                isEdit: false,
@@ -118,10 +125,7 @@ function SongPage() {
             },
             commentsPrev: commentsArr,
             setComments: setCommentsArr,
-         });
-      } catch (error) {
-         alert("Something went wrong with getting user data");
-      }
+         })
    };
    return (
       <>
@@ -137,7 +141,7 @@ function SongPage() {
             ) : (
                <div style={{ marginTop: "50px" }}>
                   <form
-                     onSubmit={ (e) => {
+                     onSubmit={(e) => {
                         e.preventDefault();
                         if (
                            selectedPlaylist === undefined ||
@@ -146,13 +150,19 @@ function SongPage() {
                            alert("Select playlist");
                            return;
                         }
-                        const {img , title , id} = data
-                        addToPlaylist(`${USERS_API}/${localStorage.getItem('userId')}` , {img : img , title : title , id : id} , selectedPlaylist , playlists , handleClose )
+                        const { img, title, id } = data;
+                        addToPlaylist(
+                           `${USERS_API}/${localStorage.getItem("userId")}`,
+                           { img: img, title: title, id: id },
+                           selectedPlaylist,
+                           playlists,
+                           handleClose
+                        );
                      }}
                      style={{ width: "80%", margin: "0 auto" }}
                   >
                      <Select
-                     value={selectedPlaylist}
+                        value={selectedPlaylist}
                         onChange={(e) => {
                            setSelectedPlaylist(e.target.value);
                         }}
@@ -189,7 +199,7 @@ function SongPage() {
             <Button
                style={{ marginTop: "30px" }}
                variant="outlined"
-               onClick={() => navigate('/')}
+               onClick={() => navigate("/")}
             >
                Go back
             </Button>
@@ -364,8 +374,8 @@ function SongPage() {
                   : commentsArr.map((com, index) => {
                        return (
                           <Comment
-                             img={com.avatar}
-                             username={com.username}
+                           
+                             
                              text={com.message}
                              key={index}
                              id={com.id}

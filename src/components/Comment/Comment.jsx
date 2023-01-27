@@ -7,13 +7,15 @@ import {
    editComment,
    postEditComment,
 } from "../../utils/comment";
-import { MUSIC_API} from "../../API";
+import { MUSIC_API } from "../../API";
 import { useNavigate, useParams } from "react-router-dom";
-
+import { useUser } from "../../contexts/userContext";
+import axios from "axios";
+import { USERS_API } from "../../API";
+import { useEffect } from "react";
+import { useState } from "react";
 function Comment({
-   img,
    text,
-   username,
    isEdit,
    isEdited,
    commentId,
@@ -21,8 +23,29 @@ function Comment({
    id,
    setComments,
 }) {
+   console.log(id)
    const { song } = useParams();
    const navigate = useNavigate();
+   const [username, setUsername] = useState("");
+   const [userData, setUserData] = useState([]);
+   const [avatar, setAvatar] = useState("");
+   useEffect(() => {
+      const getUser = async () => {
+         try {
+            const response = await axios.get(`${USERS_API}/${id}`);
+            setUserData(response.data);
+         } catch (error) {
+            alert("Something went wrong with getting user user data");
+         }
+      };
+      getUser();
+   }, [id]);
+   useEffect(() => {
+      if (userData !== undefined) {
+         setUsername(userData.username);
+         setAvatar(userData.avatar);
+      }
+   }, [userData]);
    const {
       register,
       formState: { errors },
@@ -90,9 +113,9 @@ function Comment({
                      navigate(`/profile/${id}`);
                   }}
                   src={
-                     img === ""
+                     avatar === ""
                         ? "https://t4.ftcdn.net/jpg/03/59/58/91/360_F_359589186_JDLl8dIWoBNf1iqEkHxhUeeOulx0wOC5.jpg"
-                        : img
+                        : avatar
                   }
                   alt={username}
                />
@@ -141,7 +164,7 @@ function Comment({
                      />
                      <Button
                         className="disable-span"
-                        data-id={commentId}
+                        userData-id={commentId}
                         type="submit"
                      >
                         Submit
@@ -182,7 +205,7 @@ function Comment({
                      )}
                   </Box>
                )}
-               {+localStorage.getItem("userId") === id ? (
+               {localStorage.getItem("userId") === id ? (
                   <Stack
                      direction={{ xs: "column" }}
                      gap="5px"

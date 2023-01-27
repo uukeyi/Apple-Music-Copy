@@ -27,7 +27,6 @@ function SignIn() {
       mode: "onChange",
    });
    const onSubmit = async (data) => {
-      console.log("hello");
       dispatch(
          signIn({ data: data, setAuth: setIsAuth, isAuthObj: isAuthObj })
       );

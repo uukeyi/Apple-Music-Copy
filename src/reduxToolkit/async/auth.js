@@ -11,7 +11,6 @@ export const signUp = createAsyncThunk(
             playlists: [],
             avatar: "",
             subscription : 'Free',
-            favorites : []
          });
       } catch (error) {
          return rejectWithValue(error.message)
