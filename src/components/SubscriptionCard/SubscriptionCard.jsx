@@ -61,9 +61,8 @@ function SubscriptionCard({ title, opportunities, price }) {
                            {opportunity.value ? <CheckIcon /> : <ClearIcon />}
                         </ListItemIcon>
                         <ListItemText
-                           primary={`${opportunity.desc} ${
-                              +opportunity.value ? opportunity.value : ""
-                           }`}
+                           primary={opportunity.desc}
+                             
                         />
                      </ListItem>
                   );
